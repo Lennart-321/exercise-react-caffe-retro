@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    z-index: 1;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: "Spirax", sans-serif;
+    font-size: 5vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 1.5vw;
+}
+.menu-link {
+    color: white;
+    text-decoration: solid;
+    margin-inline: 5%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+article {
+    font-family: "Poiret One", sans-serif;
+    font-size: 2vh;
+    color: white;
+}
+
+article h1 {
+    color: darkred;
+    font-family: "Spirax", sans-serif;
+    font-size: 7vh;
+    text-align: center;
+    margin: 2vh;
+}
+article p,
+article .box {
+    background-color: rgba(139, 0, 0, 0.7);
+    margin-block: 2vh;
+    padding: 2vh 3vh;
+    text-align: center;
+
+    position: relative;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+article .box {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.p-1 {
+    right: 5vw;
+}
+.p-2 {
+    left: 5vw;
+}
+
+#hot,
+#juicy {
+    border-bottom: 10px solid darkred;
+}
+
+#hot {
+    background-image: url("./assets/hot.jpg");
+}
+#juicy {
+    background-image: url("./assets/juicy.jpg");
+}
+#cosy {
+    background-image: url("./assets/cosy.jpg");
+}
+
+.separator {
+    border-block: 3px solid darkred;
+    margin-block: 0;
+}
